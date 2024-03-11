@@ -1,0 +1,33 @@
+/* Card.css */
+.card {
+    width: 200px;
+    background-color: aliceblue;
+    box-shadow: 0 2px 8px black;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 16px;
+    color: black ;
+  }
+  
+  .card-title {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .card-description {
+    color: black;
+    font-size: 12px;
+  }
+  

@@ -1,0 +1,20 @@
+.SignInBackground {
+    margin:0; 
+    width: 100vh;
+    height: 100vh;
+    background-image: url('src/assets/SignInBackground.webp'); /* Asegúrate de usar la ruta correcta a tu imagen */
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
